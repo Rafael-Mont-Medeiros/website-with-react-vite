@@ -1,0 +1,42 @@
+
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    background-color: var(--prymari);
+}
+
+.title {
+    font-size: 1.5rem;
+    color: var(--white);
+    transition: .5s;
+}
+
+.headerContainer nav {
+    display: flex;
+    column-gap: 15px;
+}
+
+.headerContainer a {
+    color: var(--white);
+    text-decoration: none;
+    transition: .5s;
+}
+
+.title:hover,
+.headerContainer a:hover{
+    opacity: 0.8;
+}
+
+
+/* 
+  --prymari: #16213e; azul escuro
+  --secondary: #0f3460; azul médio
+  --terceary: #0f3460; azul leve
+  --red: #533483;
+  --black: #f1f1f1;
+  --white: #fefefe;
+  --gray: #222222;
+*/

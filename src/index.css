@@ -4,6 +4,15 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --prymari: #16213e;
+  --secondary: #0f3460;
+  --terceary: #0f3460;
+  --purple: #533483;
+  --black: #f1f1f1;
+  --white: #fefefe;
+  --gray: #222222;
+
 }
 
 *{
