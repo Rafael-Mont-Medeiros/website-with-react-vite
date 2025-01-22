@@ -5,6 +5,9 @@
     font-size: 1.125rem;
     /* height: 50px; */
     height: 5vh;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
     background-color: var(--prymari);
     color: var(--white);
     font-weight: 400;
