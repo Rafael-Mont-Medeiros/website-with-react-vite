@@ -5,12 +5,12 @@ import style from "./Sobre.module.css"
 export default function Sobre() {
     return (
         <>
-            <Header />
+            
             <section className={style.content}>
 
-                <div>
-                    <h1>aqui vai minha foto</h1>
-                </div>
+                <figure>
+                    <img src="/photo-rafael.jpg" alt="" />
+                </figure>
 
                 <div className={style.description}>
                     <h3>sobre</h3>
@@ -26,7 +26,7 @@ export default function Sobre() {
 
                 </div>
             </section>
-            <Footer />
+            
         </>
 
     )

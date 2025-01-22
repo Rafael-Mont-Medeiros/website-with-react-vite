@@ -1,0 +1,8 @@
+.content { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    margin-top: 3rem;
+    height: 88vh;
+}

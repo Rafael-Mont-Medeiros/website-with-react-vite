@@ -1,5 +1,5 @@
 .content {
-    height: 100vh;
+    height: 88vh;
     display: flex;
     justify-content: space-around;
     align-items: center
@@ -25,6 +25,12 @@
 .atuaction{
     color: var(--terceary);
     font-weight: 600;
+}
+
+.content figure img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
 }
 
 
