@@ -1,0 +1,21 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.container span {
+    font-size: 10rem;
+    font-weight: bolder;
+}
+
+.pink {
+    color: #e94560;
+}
