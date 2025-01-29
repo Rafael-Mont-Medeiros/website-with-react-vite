@@ -1,8 +1,28 @@
 .container {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     height: 88vh;
-    row-gap: 25px;
+    row-gap: 5rem;
     margin-top: 10vh;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+}
+
+.icon {
+    font-size: 2.5rem;
+    color: var(--pink);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.icon:hover{
+    opacity: 0.8;
+    scale: 1.1;
 }

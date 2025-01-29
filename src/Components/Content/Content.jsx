@@ -9,7 +9,7 @@ export default function Content() {
                     <p> Olá, meu nome é <br />
                         <span>Rafael Medeiros</span><br />
                         Dev front-end
-                    </p>
+                    </p><br /><br />
 
                     <Link to="/sobre">Saiba mais sobre mim.</Link>
                 </div>
