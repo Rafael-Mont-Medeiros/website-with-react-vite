@@ -10,6 +10,7 @@
     font-size: 3rem;
     font-weight: 400;
     margin-bottom: 1rem;
+    cursor: default;
 }
 
 .content span {
@@ -30,7 +31,7 @@
     border-radius: 5px;
     background: var(--purple);
     color: var(--white);
-    transition: .3s;
+    transition: .5s;
 }
 
 .content a:hover {
