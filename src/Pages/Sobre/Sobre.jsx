@@ -3,6 +3,7 @@ import html from "./Images/icon-html.svg"
 import css from "./Images/icon-css.svg"
 import js from "./Images/icon-js.svg"
 import react from "./Images/icon-react.svg"
+import photo from "./Images/photo-rafael.png"
 
 export default function Sobre() {
     return (
@@ -12,7 +13,7 @@ export default function Sobre() {
                 <section className={style.content}>
 
                     <figure>
-                        <img src="/photo-rafael.jpg" alt="" />
+                        <img src={photo} alt="" />
                     </figure>
 
                     <div className={style.description}>
