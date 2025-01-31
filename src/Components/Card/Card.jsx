@@ -1,9 +1,9 @@
 import style from './Card.module.css'
 import { BsFiletypeHtml, BsFiletypeCss, BsFiletypeJs } from "react-icons/bs";
 import { FaReact, FaArrowRight } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+/* import { Link } from 'react-router-dom'; */
 
-export default function Card({name, description, html_url}) {
+export default function Card({ name, description, html_url }) {
     return (
         <>
             <div className={style.container}>
@@ -17,7 +17,12 @@ export default function Card({name, description, html_url}) {
                         <BsFiletypeJs className={style.icon} />
                         <FaReact className={style.icon} />
                     </div>
-                    <Link to={html_url}> <FaArrowRight /> </Link>
+                    <a
+                        href={html_url}
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <FaArrowRight />
+                    </a>
                 </div>
 
             </div>

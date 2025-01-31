@@ -1,9 +1,13 @@
 .container {
+    min-height: 100vh;
+    margin-top: 7vw;
+}
+
+.content{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 50px;
-    min-height: 88vh;
-    margin-top: 10vw;
+    gap: 30px;
+    z-index: 0;
 }

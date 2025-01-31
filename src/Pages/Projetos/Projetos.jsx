@@ -16,22 +16,27 @@ export default function Projetos() {
 
     return (
         <>
-            <div className={style.container}>
+            <section className={style.container}>
+
                 {
-                    <section className={style.content}>
-                        {
-                            repositories.map((repo) => {
-                                <Card
-                                    key={repo.id}
-                                    name={repo.name}
-                                    description={repo.description}
-                                    html_url={repo.html_url}
-                                />
-                            })
-                        }
-                    </section>
+                    repositories.length > 0 ? (
+                        <section className={style.content}>
+                            {
+                                repositories.map((rep) => (
+                                    <Card
+                                            key={rep.id}
+                                            name={rep.name}
+                                            description={rep.description}
+                                            html_url={rep.html_url}
+                                        /> 
+                                ))
+                            }
+                        </section>
+                    ) : (
+                        <p>carregando repositorios...</p>
+                    )
                 }
-            </div>
+            </section>
         </>
     )
 }
