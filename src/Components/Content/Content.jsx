@@ -8,7 +8,7 @@ export default function Content() {
                 <div>
                     <p> Olá, meu nome é <br />
                         <span>Rafael Medeiros</span><br />
-                        Dev front-end
+                        Dev front-end.
                     </p><br /><br />
 
                     <Link to="/sobre">Saiba mais sobre mim.</Link>

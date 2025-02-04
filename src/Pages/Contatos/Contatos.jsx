@@ -9,7 +9,7 @@ export default function () {
     return (
         <>
             <div className={style.container}>
-                <h1>Contatos</h1>
+                <h1>Contatos.</h1>
                 <h3>Como prefere entrar em contato?</h3>
 
                 <div className={style.contacts}>

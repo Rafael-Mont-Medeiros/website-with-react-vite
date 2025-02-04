@@ -19,9 +19,9 @@ export default function Sobre() {
                     <div className={style.description}>
                         <h3>sobre</h3>
                         <p>
-                            Sou <span className={style.name}>Rafael Medeiros</span><br />
+                            Sou <span className={style.name}>Rafael Medeiros,</span><br />
                             <span className={style.atuaction}>
-                                Dev front-end
+                                Dev front-end.
                             </span>
                         </p>
                         <p>
@@ -32,7 +32,7 @@ export default function Sobre() {
                 </section>
 
                 <div className={style.skills}>
-                    <h2>skills</h2>
+                    <h2>skills:</h2>
 
                     <div className={style.icons}>
                     <img src={html} alt="" />
