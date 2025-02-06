@@ -9,7 +9,7 @@
 
 .container h2,
 .container h2,
-.container p{
+.container p {
     cursor: default;
 }
 
@@ -19,7 +19,7 @@
     align-items: center
 }
 
-.description{
+.description {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
@@ -32,11 +32,11 @@
 }
 
 .name {
-    color:#e94560;
+    color: #e94560;
     font-weight: 600;
 }
 
-.atuaction{
+.atuaction {
     color: var(--terceary);
     font-weight: 600;
 }
@@ -51,14 +51,46 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     row-gap: 2rem;
 }
 
-.icons{
+.icons {
     display: flex;
     column-gap: 3rem;
     height: 4rem;
+}
+
+@media (max-width: 390px) {
+    .container {
+        padding-block: 10vh 0;
+        justify-content: space-around;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content figure img{
+        height: 180px;
+        width: 180px;
+    }
+    .description {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.3rem;
+
+    }
+
+    .skills h2{
+        font-size: 1.3rem;
+    }
+
+    .icons{
+        height: 2rem;
+        column-gap: 0;
+    }
 }
 
 

@@ -1,6 +1,7 @@
 .container {
     min-height: 100vh;
-    margin-top: 7vw;
+    
+    padding-block: 10vh 10vh;
 }
 
 .content{

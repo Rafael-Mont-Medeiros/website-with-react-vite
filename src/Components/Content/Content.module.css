@@ -39,6 +39,39 @@
     scale: 1.1;
 }
 
+@media (max-width:768px){
+    .content {
+        display: flex;
+        flex-direction: column;
+        padding-block: 10vh 0;
+    }
+}
+
+@media (max-width:390px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around; 
+        padding-top: 10vh;
+        padding-left: 2rem;
+        
+    }
+
+
+    .content p{
+        font-size: 1.4rem;
+    }
+
+    .content span {
+        font-size: 1.8rem;
+    }
+
+    .content img {
+        height: 180px;
+    }
+}
+
 
 
 /* 

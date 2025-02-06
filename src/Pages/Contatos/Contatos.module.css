@@ -8,7 +8,7 @@
     margin-top: 10vh;
 }
 
-.contacts{
+.contacts {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,7 +22,13 @@
     cursor: pointer;
 }
 
-.icon:hover{
+.icon:hover {
     opacity: 0.8;
     scale: 1.1;
+}
+
+@media (max-width: 390px) {
+    .contacts {
+        column-gap: 2rem;
+    }
 }
