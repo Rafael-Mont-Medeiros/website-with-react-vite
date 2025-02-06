@@ -33,44 +33,29 @@
     opacity: 0.8;
 }
 
-@media (max-width: 768px) {
-    .menuHamburguer {
+@media (max-width: 768px){
+    .menu {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        height: 2rem;
-        width: 2rem;
+        align-items: center;
+        justify-content: space-around;
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
     }
 
-    .line{
+    .line {
         display: block;
         height: 4px;
         width: 100%;
         background-color: var(--white);
     }
 
-    .headerContainer nav {
+    .menuHamburguer{
         display: none;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }
-
-    .headerContainer nav a {
-        margin: 10px 0;
-        display: block;
-    }
-
-    .headerContainer .active {
-        display: flex;
-    }
-
-    @media(max-width: 390px){
-        .title{
-            font-size: 1.1rem;
-        }
     }
 }
+
 
 /* 
   --prymari: #16213e; azul escuro
