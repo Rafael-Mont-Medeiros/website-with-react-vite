@@ -10,10 +10,13 @@ export default function Header() {
 
     return (
         <>
-            <header className={style.headerContainer}>
+            <header className={`${style.headerContainer}`}>
                 <Link to="/" className={style.title}>RafaelMedeiros.dev</Link>
 
-                <nav className={style.menuHamburguer} >
+                <nav 
+                    className={`{${style.menuHamburguer}
+                    ${showMenu ? style.show : style.menuHamburguer}`}
+                >
                     <Link to="/">Home</Link>
                     <Link to="sobre">Sobre</Link>
                     <Link to="projetos">Projetos</Link>
@@ -22,7 +25,7 @@ export default function Header() {
 
                 <div
                     onClick={toggleMenu}
-                    className={style.menu}
+                    className={`${style.menu} ${showMenu ? style.active : style.menu}`}
                 >
                     <span className={`${style.line} ${style.line1}`}></span>
                     <span className={`${style.line} ${style.line2}`}></span>
