@@ -69,15 +69,15 @@
         width: 100%;
     }
     
-    .show .active:nth-child(1) {
+    .active:nth-child(1) {
         transform: rotate(45deg) translateY(.7rem);
     }
 
-    .show .active:nth-child(2) {
+    .active:nth-child(2) {
         height: 0;
     }
 
-    .show .active:nth-child(2) {
+    .active:nth-child(2) {
         transform: rotate(135deg) translateY(.7rem);
     }
 

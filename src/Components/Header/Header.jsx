@@ -4,16 +4,22 @@ import { useState } from "react"
 
 export default function Header() {
     const [showMenu, setShowMenu] = useState(false)
+    const [animation, setAnimation] = useState(false)
+
     const toggleMenu = () => {
+        setAnimation(!animation)
         setShowMenu(!showMenu)
     }
 
     return (
         <>
             <header className={`${style.headerContainer}`}>
-                <Link to="/" className={style.title}>RafaelMedeiros.dev</Link>
+                <Link
+                    to="/"
+                    className={style.title}>RafaelMedeiros.dev
+                </Link>
 
-                <nav 
+                <nav
                     className={`{${style.menuHamburguer}
                     ${showMenu ? style.show : style.menuHamburguer}`}
                 >
@@ -25,7 +31,8 @@ export default function Header() {
 
                 <div
                     onClick={toggleMenu}
-                    className={`${style.menu} ${showMenu ? style.active : style.menu}`}
+                    className={`${style.menu} 
+                    ${animation ? style.active : style.menu}`}
                 >
                     <span className={`${style.line} ${style.line1}`}></span>
                     <span className={`${style.line} ${style.line2}`}></span>

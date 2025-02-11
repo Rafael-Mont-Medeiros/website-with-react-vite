@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .container p {
@@ -18,4 +19,14 @@
 
 .pink {
     color: #e94560;
+}
+
+@media(max-width : 390px) {
+
+    .container span {
+        font-size: 9rem;
+    }
+    .container p {
+        font-size: 2rem;
+    }
 }
