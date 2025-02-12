@@ -42,6 +42,8 @@
         height: 30px;
         width: 30px;
         cursor: pointer;
+        position: relative;
+        transition: transform 0.5s ease-in-out;
     }
 
     .line {
@@ -49,6 +51,8 @@
         height: 4px;
         width: 100%;
         background-color: var(--white);
+        transition: transform 0.5s ease-in-out;
+
     }
 
     .headerContainer .menuHamburguer {
@@ -56,6 +60,37 @@
     }
 
     .show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 6vh;
+        right: 0;
+        background-color: inherit;
+        width: 25%;
+        gap: 15px;
+        padding-block: 20px;
+        width: 100%;
+        transition: .5s;
+    }
+
+    /* .menu.active {
+        transform: rotate(180deg);
+    } */
+
+    .menu.active .line:nth-child(1) {
+        transform: rotate(45deg) translateY(.9rem);
+    }
+
+    .menu.active .line:nth-child(2) {
+        height: 0;
+    }
+
+    .menu.active .line:nth-child(3) {
+        transform: rotate(-45deg) translateY(-.8rem)
+    }
+
+    /*     .show {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -79,7 +114,7 @@
 
     .active:nth-child(2) {
         transform: rotate(135deg) translateY(.7rem);
-    }
+    } */
 
 }
 
